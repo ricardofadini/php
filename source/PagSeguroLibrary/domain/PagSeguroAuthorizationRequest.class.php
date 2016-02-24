@@ -107,7 +107,7 @@ class PagSeguroAuthorizationRequest
      */
     public function setNotificationURL($notificationURL)
     {
-        $this->permissions = $notificationURL;
+        $this->notificationURL = $notificationURL;
     }
 
     /***
