@@ -75,7 +75,7 @@ class CreateTransactionUsingCreditCard
             '11',
             '56273440',
             'CPF',
-            '156.009.442-76',
+            'insira um numero de CPF valido',
             true
         );
 
@@ -129,7 +129,7 @@ class CreateTransactionUsingCreditCard
                         'name' => 'João Comprador', //Equals in Credit Card
                         'documents' => array(
                             'type' => 'CPF',
-                            'value' => '156.009.442-76'
+                            'value' => 'insira um numero de CPF valido'
                         ),
                         'birthDate' => date('01/10/1979'),
                         'areaCode' => 11,

@@ -67,14 +67,14 @@ class CreatePaymentRequestWithPreApproval
             '11',
             '56273440',
             'CPF',
-            '156.009.442-76'
+            'insira um numero de CPF valido'
         );
 
         // Set the url used by PagSeguro to redirect user after checkout process ends
         $paymentRequest->setRedirectUrl("http://www.lojamodelo.com.br");
 
         // Add checkout metadata information
-        $paymentRequest->addMetadata('PASSENGER_CPF', '15600944276', 1);
+        $paymentRequest->addMetadata('PASSENGER_CPF', 'insira um numero de CPF valido', 1);
         $paymentRequest->addMetadata('GAME_NAME', 'DOTA');
         $paymentRequest->addMetadata('PASSENGER_PASSPORT', '23456', 1);
 

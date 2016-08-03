@@ -58,7 +58,7 @@ class CreatePreApproval
             '11',
             '56273440',
             'CPF',
-            '156.009.442-76'
+            'insira um numero de CPF valido'
         );
 
         /***
