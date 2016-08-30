@@ -81,7 +81,7 @@ class PagSeguroCancelService
      * @return null|PagSeguroParserData
      * @throws PagSeguroServiceException
      */
-    private function getResult($connection)
+    private static function getResult($connection)
     {
         $httpStatus = new PagSeguroHttpStatus($connection->getStatus());
 
